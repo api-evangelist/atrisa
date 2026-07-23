@@ -1,7 +1,16 @@
 aid: atrisa
 name: Atrisa
-description: Atrisa is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Atrisa (formerly Refortifai) is a Y Combinator (P26) startup building AI agents
+  for analog circuit design. The product is a chat-based assistant engineer that
+  lets hardware and analog design teams ask it, in natural language, to create a
+  design, debug a circuit, or run simulations. Atrisa is designed to fit into
+  existing workflows: teams bring their own toolkit, PDKs (process design kits),
+  and design documents, which Atrisa reads, understands, and adopts to produce
+  schematic-level outputs and iterate on analog designs. As an early-stage company
+  it currently ships a hosted web application rather than a public developer API,
+  so this profile captures its identity, domain-security posture, and public
+  surface pending any future API release.
 url: https://raw.githubusercontent.com/api-evangelist/atrisa/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +18,49 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://atrisa.ai/assets/atrisa-logo-mark.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Analog Circuit Design
+- EDA
+- Semiconductors
+- AI Agents
+- Hardware Design
+- Simulation
+- Y Combinator
 apis: []
+common:
+- type: Website
+  url: https://atrisa.ai
+- type: Launch
+  url: https://www.ycombinator.com/launches/QdM-atrisa-agents-for-analog-circuit-design
+- type: LinkedIn
+  url: https://www.linkedin.com/company/112140930
+- type: YouTube
+  url: https://www.youtube.com/@AtrisaAI
+- type: DomainSecurity
+  url: security/atrisa-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
